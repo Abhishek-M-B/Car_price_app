@@ -102,6 +102,8 @@ python manage.py runserver
 The app will be available at http://127.0.0.1:5000/
 ```
 
+### Demo Video
+<img src="" alt="Alt text" width=600/>
 
 
 
