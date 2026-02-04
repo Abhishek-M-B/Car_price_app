@@ -103,8 +103,7 @@ The app will be available at http://127.0.0.1:5000/
 ```
 
 ### Demo Video
-<img src="https://github.com/user-attachments/assets/331c10e4-96a9-46ba-8827-ee3078a6bca8
-" alt="Alt text" width=600/>
+<img src="https://raw.githubusercontent.com/Abhishek-M-B/Car_price_app/refs/heads/main/demo_video.gif" alt="Alt text" width=600/>
 
 
 
