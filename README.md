@@ -53,7 +53,11 @@ The application uses a **Regression Algorithm** trained on a dataset of thousand
 ## 📂 Project Structure
 ```text
 car-price-prediction/
-├── app.py                      # Flask Application entry point
+├── app.py              
+
+https://github.com/user-attachments/assets/5ff9ceb5-2b6e-4b2f-a07b-35d21366e698
+
+        # Flask Application entry point
 ├── classifier.py               # Script for model training/logic
 ├── best_random_forest_tuned.pkl # Trained ML model
 ├── scaler.pkl                  # Data scaling parameters
@@ -64,9 +68,40 @@ car-price-prediction/
     └── index.html              # Main web page
 ```
 
+### How to Run
 
-##Demo Video
-<img src="" alt="Alt text"  width="600"/>
+### 1. Clone the Repository
+```Bash
+git clone [https://github.com/your-username/car-price-prediction.git](https://github.com/your-username/car-price-prediction.git)
+cd car-price-prediction
+```
+
+###2. Create a Virtual Environment
+```Bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+```
+
+###3. Install Dependencies
+```Bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+```Bash
+# If using Flask:
+python app.py
+```
+
+## If using Django:
+``` Bash
+python manage.py runserver
+The app will be available at http://127.0.0.1:5000/
+```
+
 
 
 
