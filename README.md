@@ -54,10 +54,6 @@ The application uses a **Regression Algorithm** trained on a dataset of thousand
 ```text
 car-price-prediction/
 ├── app.py              
-
-https://github.com/user-attachments/assets/5ff9ceb5-2b6e-4b2f-a07b-35d21366e698
-
-        # Flask Application entry point
 ├── classifier.py               # Script for model training/logic
 ├── best_random_forest_tuned.pkl # Trained ML model
 ├── scaler.pkl                  # Data scaling parameters
@@ -72,7 +68,7 @@ https://github.com/user-attachments/assets/5ff9ceb5-2b6e-4b2f-a07b-35d21366e698
 
 ### 1. Clone the Repository
 ```Bash
-git clone [https://github.com/your-username/car-price-prediction.git](https://github.com/your-username/car-price-prediction.git)
+git clone [https://raw.githubusercontent.com/Abhishek-M-B/Car_price_app/refs/heads/main/demo_video.gif)
 cd car-price-prediction
 ```
 
