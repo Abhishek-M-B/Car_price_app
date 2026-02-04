@@ -52,16 +52,29 @@ The application uses a **Regression Algorithm** trained on a dataset of thousand
 
 ## 📂 Project Structure
 ```text
-car-price-prediction/
-├── app.py              
-├── classifier.py               # Script for model training/logic
-├── best_random_forest_tuned.pkl # Trained ML model
-├── scaler.pkl                  # Data scaling parameters
-├── car_prediction_data.csv     # Dataset used for training
+CAR_PREDICTION_APP/
+│
+├── notebooks/
+│   └── experiments.ipynb
 ├── static/
-│   └── style.css               # Styling for the web UI
-└── templates/
-    └── index.html              # Main web page
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── templates/
+│   ├── index.html
+│   └── result.html
+├── venv/                  # local virtual environment (DO NOT push)
+│
+├── .gitignore
+├── app.py                 # Flask entry point
+├── best_random_forest_tuned.pkl
+├── scaler.pkl
+├── car_prediction_data.csv
+├── config.yaml
+├── requirements.txt
+├── README.md
+└── demo.mp4
+
 ```
 
 ### How to Run
