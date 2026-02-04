@@ -103,7 +103,9 @@ The app will be available at http://127.0.0.1:5000/
 ```
 
 ### Demo Video
-<img src="" alt="Alt text" width=600/>
+<img src="https://github.com/user-attachments/assets/bfd99ff7-9a52-4357-88af-b7318fe8f8da" alt="Alt text" width=600/>
+
+
 
 
 
