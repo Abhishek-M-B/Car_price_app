@@ -103,7 +103,8 @@ The app will be available at http://127.0.0.1:5000/
 ```
 
 ### Demo Video
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/216732034/544747051-bfd99ff7-9a52-4357-88af-b7318fe8f8da.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260204%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260204T053239Z&X-Amz-Expires=300&X-Amz-Signature=14bd6bdc154509ecebcc40c766bd14b4b1534e939002011f00c537873b34a9c0&X-Amz-SignedHeaders=host" alt="Alt text" width=600/>
+<img src="https://github.com/user-attachments/assets/331c10e4-96a9-46ba-8827-ee3078a6bca8
+" alt="Alt text" width=600/>
 
 
 
