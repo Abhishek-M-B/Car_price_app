@@ -1,12 +1,18 @@
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
+import yaml
 
 app = Flask(__name__)
 
-model = pickle.load(open('best_random_forest_tuned.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+with open('config.yaml',"r") as file:
+    config = yaml.safe_load(file)
 
+model_Path = config['model_name']
+scalar_Path = config['scalar_name']
+
+model = pickle.load(open(model_Path, 'rb'))
+scaler = pickle.load(open(scalar_Path, 'rb'))
 
 @app.route('/', methods=['GET'])
 def home():
