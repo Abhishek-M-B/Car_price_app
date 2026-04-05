@@ -1,0 +1,105 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* Background Car Image */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1920') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px); /* Increased blur for better readability */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Increased Width, Reduced Height approach */
+    width: 800px; 
+    max-width: 90%;
+    text-align: center;
+}
+
+/* Grid layout for the form */
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between fields */
+    text-align: left;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    grid-column: span 2; /* Header takes full width */
+    text-align: center;
+}
+
+input, select {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    padding: 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+select option {
+    background: #1a1a1a;
+}
+
+/* Make button span both columns */
+.btn-primary {
+    grid-column: span 2;
+    background: linear-gradient(to right, #4776E6, #8E54E9);
+    border: none;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.result {
+    grid-column: span 2;
+    text-align: center;
+}
+
+h2 {
+    color: #00ffcc;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    form {
+        grid-template-columns: 1fr; /* Stack back to one column on small screens */
+    }
+    h1, .btn-primary, .result {
+        grid-column: span 1;
+    }
+}
